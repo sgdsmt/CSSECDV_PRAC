@@ -12,7 +12,7 @@
       {
         "version": "2.6.2",
         "title": "DFD 1 - Customer Places an Order",
-        "description": "Data flow 1 from Section 5.2: Customer Places an Order",
+        "description": "",
         "thumbnail": "./public/content/images/thumbnail.stride.jpg",
         "diagramType": "STRIDE",
         "id": 0,
@@ -42,7 +42,7 @@
             "id": "510c4619-e02e-453e-bbb9-8f3a0183a8b5",
             "data": {
               "name": "Customer",
-              "description": "Customer (external entity, untrusted client side)",
+              "description": "",
               "type": "tm.Actor",
               "isTrustBoundary": false,
               "outOfScope": false,
@@ -77,7 +77,7 @@
             "id": "0e78ea8a-761d-40de-8eca-9c7df5e7493f",
             "data": {
               "name": "Frontend",
-              "description": "Client Side (Frontend): HTML5/CSS3/JavaScript UI",
+              "description": "",
               "type": "tm.Process",
               "isTrustBoundary": false,
               "outOfScope": false,
@@ -155,7 +155,7 @@
             "id": "3ea8a61c-670d-4609-b44e-0d0f081948f8",
             "data": {
               "name": "Web Server Backend",
-              "description": "Backend Web Application Server: Node.js RESTful APIs",
+              "description": "",
               "type": "tm.Process",
               "isTrustBoundary": false,
               "outOfScope": false,
@@ -433,7 +433,7 @@
             "id": "f662fd90-93c5-4678-8258-685da52e1174",
             "data": {
               "name": "Database",
-              "description": "MongoDB Database Server",
+              "description": "",
               "type": "tm.Store",
               "isTrustBoundary": false,
               "outOfScope": false,
@@ -615,7 +615,7 @@
             "id": "8714fc74-0bd4-4719-a3d5-a5c27ad860f4",
             "data": {
               "name": "Payment Gateway",
-              "description": "Third-Party Payment Service (external, partially trusted)",
+              "description": "",
               "type": "tm.Actor",
               "isTrustBoundary": false,
               "outOfScope": false,
@@ -1314,61 +1314,13 @@
               "y": 465
             },
             "vertices": []
-          },
-          {
-            "position": {
-              "x": 20,
-              "y": 20
-            },
-            "size": {
-              "width": 460,
-              "height": 50
-            },
-            "attrs": {
-              "text": {
-                "text": "DFD 1: Customer Places an Order\nBrew & Bloom Coffee Co. Ordering Application"
-              }
-            },
-            "visible": true,
-            "shape": "td-text-block",
-            "zIndex": 16,
-            "id": "fafe842b-6505-43d6-b090-f149f98104b5",
-            "data": {
-              "type": "tm.Text",
-              "name": "DFD 1: Customer Places an Order\nBrew & Bloom Coffee Co. Ordering Application",
-              "hasOpenThreats": false
-            }
-          },
-          {
-            "position": {
-              "x": 20,
-              "y": 450
-            },
-            "size": {
-              "width": 300,
-              "height": 70
-            },
-            "attrs": {
-              "text": {
-                "text": "1.2 Server validates input & business rules\n1.6 MongoDB stores the new order record"
-              }
-            },
-            "visible": true,
-            "shape": "td-text-block",
-            "zIndex": 17,
-            "id": "fbeecffe-6032-4036-beb7-99ac7dcd92cd",
-            "data": {
-              "type": "tm.Text",
-              "name": "1.2 Server validates input & business rules\n1.6 MongoDB stores the new order record",
-              "hasOpenThreats": false
-            }
           }
         ]
       },
       {
         "version": "2.6.2",
         "title": "DFD 2 - Barista Updates Order Status",
-        "description": "Data flow 2 from Section 5.2: Barista Updates Order Status",
+        "description": "",
         "thumbnail": "./public/content/images/thumbnail.stride.jpg",
         "diagramType": "STRIDE",
         "id": 1,
@@ -1398,7 +1350,7 @@
             "id": "3d1ef5e7-97ee-42f6-bdb0-e2ee1c4b7118",
             "data": {
               "name": "Barista",
-              "description": "Barista (external entity, untrusted client side)",
+              "description": "",
               "type": "tm.Actor",
               "isTrustBoundary": false,
               "outOfScope": false,
@@ -1433,7 +1385,7 @@
             "id": "b3b213f9-c864-48ff-a206-2602fe08d941",
             "data": {
               "name": "Frontend",
-              "description": "Client Side (Frontend): HTML5/CSS3/JavaScript UI",
+              "description": "",
               "type": "tm.Process",
               "isTrustBoundary": false,
               "outOfScope": false,
@@ -1511,7 +1463,7 @@
             "id": "21f69a99-a61d-4aab-b852-93ef2fc799f8",
             "data": {
               "name": "Web Server Backend",
-              "description": "Backend Web Application Server: Node.js RESTful APIs",
+              "description": "",
               "type": "tm.Process",
               "isTrustBoundary": false,
               "outOfScope": false,
@@ -1789,7 +1741,7 @@
             "id": "ba3b48a2-b6c3-4795-9800-992d6f82ab5f",
             "data": {
               "name": "Database",
-              "description": "MongoDB Database Server",
+              "description": "",
               "type": "tm.Store",
               "isTrustBoundary": false,
               "outOfScope": false,
@@ -2717,61 +2669,13 @@
               "y": 490
             },
             "vertices": []
-          },
-          {
-            "position": {
-              "x": 20,
-              "y": 20
-            },
-            "size": {
-              "width": 460,
-              "height": 50
-            },
-            "attrs": {
-              "text": {
-                "text": "DFD 2: Barista Updates Order Status\nBrew & Bloom Coffee Co. Ordering Application"
-              }
-            },
-            "visible": true,
-            "shape": "td-text-block",
-            "zIndex": 16,
-            "id": "6151caa6-58a1-4224-ba4d-6b96f0cba129",
-            "data": {
-              "type": "tm.Text",
-              "name": "DFD 2: Barista Updates Order Status\nBrew & Bloom Coffee Co. Ordering Application",
-              "hasOpenThreats": false
-            }
-          },
-          {
-            "position": {
-              "x": 20,
-              "y": 450
-            },
-            "size": {
-              "width": 300,
-              "height": 70
-            },
-            "attrs": {
-              "text": {
-                "text": "2.2 Server authenticates & authorizes the Barista\n2.7 Server validates the status update"
-              }
-            },
-            "visible": true,
-            "shape": "td-text-block",
-            "zIndex": 17,
-            "id": "1936a89e-4884-4f0c-bfc3-e17ebe645188",
-            "data": {
-              "type": "tm.Text",
-              "name": "2.2 Server authenticates & authorizes the Barista\n2.7 Server validates the status update",
-              "hasOpenThreats": false
-            }
           }
         ]
       },
       {
         "version": "2.6.2",
         "title": "DFD 3 - Manager Accesses Basic Sales Reports",
-        "description": "Data flow 3 from Section 5.2: Manager Accesses Basic Sales Reports",
+        "description": "",
         "thumbnail": "./public/content/images/thumbnail.stride.jpg",
         "diagramType": "STRIDE",
         "id": 2,
@@ -2801,7 +2705,7 @@
             "id": "befc3fe2-190c-4f22-85e8-69969387529b",
             "data": {
               "name": "Manager",
-              "description": "Manager (external entity, untrusted client side)",
+              "description": "",
               "type": "tm.Actor",
               "isTrustBoundary": false,
               "outOfScope": false,
@@ -2836,7 +2740,7 @@
             "id": "1c7a484e-fb07-4c17-9426-d4f599b22689",
             "data": {
               "name": "Frontend",
-              "description": "Client Side (Frontend): HTML5/CSS3/JavaScript UI",
+              "description": "",
               "type": "tm.Process",
               "isTrustBoundary": false,
               "outOfScope": false,
@@ -2914,7 +2818,7 @@
             "id": "dc8cf90d-3602-43bb-b4d2-eea149d9be62",
             "data": {
               "name": "Web Server Backend",
-              "description": "Backend Web Application Server: Node.js RESTful APIs",
+              "description": "",
               "type": "tm.Process",
               "isTrustBoundary": false,
               "outOfScope": false,
@@ -3192,7 +3096,7 @@
             "id": "5f3208d2-db20-4f06-94c3-35a67c8a7f3d",
             "data": {
               "name": "Database",
-              "description": "MongoDB Database Server",
+              "description": "",
               "type": "tm.Store",
               "isTrustBoundary": false,
               "outOfScope": false,
@@ -3904,61 +3808,13 @@
               "y": 490
             },
             "vertices": []
-          },
-          {
-            "position": {
-              "x": 20,
-              "y": 20
-            },
-            "size": {
-              "width": 460,
-              "height": 50
-            },
-            "attrs": {
-              "text": {
-                "text": "DFD 3: Manager Accesses Basic Sales Reports\nBrew & Bloom Coffee Co. Ordering Application"
-              }
-            },
-            "visible": true,
-            "shape": "td-text-block",
-            "zIndex": 13,
-            "id": "e0895ed5-a120-44fc-885a-4f4337f7dcda",
-            "data": {
-              "type": "tm.Text",
-              "name": "DFD 3: Manager Accesses Basic Sales Reports\nBrew & Bloom Coffee Co. Ordering Application",
-              "hasOpenThreats": false
-            }
-          },
-          {
-            "position": {
-              "x": 20,
-              "y": 450
-            },
-            "size": {
-              "width": 300,
-              "height": 70
-            },
-            "attrs": {
-              "text": {
-                "text": "3.2 Server authenticates & authorizes the Manager\n3.4 Server calculates totals & formats data"
-              }
-            },
-            "visible": true,
-            "shape": "td-text-block",
-            "zIndex": 14,
-            "id": "41f3a76c-96d9-4183-bbdf-ec174df4a819",
-            "data": {
-              "type": "tm.Text",
-              "name": "3.2 Server authenticates & authorizes the Manager\n3.4 Server calculates totals & formats data",
-              "hasOpenThreats": false
-            }
           }
         ]
       },
       {
         "version": "2.6.2",
         "title": "DFD 4 - Administrator Adds New Menu Item",
-        "description": "Data flow 4 from Section 5.2: Administrator Adds New Menu Item",
+        "description": "",
         "thumbnail": "./public/content/images/thumbnail.stride.jpg",
         "diagramType": "STRIDE",
         "id": 3,
@@ -3988,7 +3844,7 @@
             "id": "c60b6822-cae0-4905-abc0-1c45a155e441",
             "data": {
               "name": "Administrator",
-              "description": "Administrator (external entity, untrusted client side)",
+              "description": "",
               "type": "tm.Actor",
               "isTrustBoundary": false,
               "outOfScope": false,
@@ -4023,7 +3879,7 @@
             "id": "e6219560-4532-4be6-8f95-c0e186b2bf85",
             "data": {
               "name": "Frontend",
-              "description": "Client Side (Frontend): HTML5/CSS3/JavaScript UI",
+              "description": "",
               "type": "tm.Process",
               "isTrustBoundary": false,
               "outOfScope": false,
@@ -4101,7 +3957,7 @@
             "id": "c431b3af-bac1-4b2d-a136-ae1f6a53b8c5",
             "data": {
               "name": "Web Server Backend",
-              "description": "Backend Web Application Server: Node.js RESTful APIs",
+              "description": "",
               "type": "tm.Process",
               "isTrustBoundary": false,
               "outOfScope": false,
@@ -4379,7 +4235,7 @@
             "id": "bbd63d13-f2f8-4609-b512-bdb5b629f007",
             "data": {
               "name": "Database",
-              "description": "MongoDB Database Server",
+              "description": "",
               "type": "tm.Store",
               "isTrustBoundary": false,
               "outOfScope": false,
@@ -5163,54 +5019,6 @@
               "y": 490
             },
             "vertices": []
-          },
-          {
-            "position": {
-              "x": 20,
-              "y": 20
-            },
-            "size": {
-              "width": 460,
-              "height": 50
-            },
-            "attrs": {
-              "text": {
-                "text": "DFD 4: Administrator Adds New Menu Item\nBrew & Bloom Coffee Co. Ordering Application"
-              }
-            },
-            "visible": true,
-            "shape": "td-text-block",
-            "zIndex": 14,
-            "id": "b7e834a8-9ed0-4ed6-a247-85334edc6423",
-            "data": {
-              "type": "tm.Text",
-              "name": "DFD 4: Administrator Adds New Menu Item\nBrew & Bloom Coffee Co. Ordering Application",
-              "hasOpenThreats": false
-            }
-          },
-          {
-            "position": {
-              "x": 20,
-              "y": 450
-            },
-            "size": {
-              "width": 300,
-              "height": 70
-            },
-            "attrs": {
-              "text": {
-                "text": "4.3 Server validates input & authorizes the Administrator"
-              }
-            },
-            "visible": true,
-            "shape": "td-text-block",
-            "zIndex": 15,
-            "id": "8954c4ef-28ec-4d6b-9573-eaab6cf169b8",
-            "data": {
-              "type": "tm.Text",
-              "name": "4.3 Server validates input & authorizes the Administrator",
-              "hasOpenThreats": false
-            }
           }
         ]
       }
